@@ -1,0 +1,114 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #c4ae78, #f9f6f0);
+}
+
+header h1 {
+    align-items: center;
+    position: fixed;
+    font-size: 200%;
+    font-family: Verdana;
+    color: #171515;
+    top: 3%; left: 7%;
+    transition: .5s;
+    cursor: default;
+}
+
+header h1:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+
+header .homebtn img {
+    position: fixed;
+    top: 1.5%; left: 95.3%;
+    height: 6%; width: 3%;
+    text-align: center;
+    font-family: 'agency FB';
+    font-size: 138%;
+    color: #171515;
+    transition: .5s;
+    cursor: pointer;
+}
+
+header .homebtn img:hover {
+    scale: 1.2;
+    transition: .5s;
+}
+
+header .socialbtn img {
+    position: fixed;
+    top: 1.5%; left: 91%;
+    height: 6%; width: 3%;
+    text-align: center;
+    font-family: 'agency FB';
+    font-size: 130%;
+    color: #171515;
+    border-radius: 35px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+header .socialbtn img:hover {
+    scale: 1.2;
+    transition: .5s;
+}
+
+.conteudo {
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+
+.conteudo .btn {
+    position: relative;
+    height: 500px; width: 500px;
+    background: transparent;
+    background-size: cover;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.conteudo .btn:hover {
+    scale: 1.2;
+    transition: .5s;
+}
+
+.conteudo .txt {
+    position: relative;
+    top: 28px;
+    height: 600px; width: 1050px;
+    border-radius: 35px;
+    background-size: cover;
+    transition: .5s;
+    cursor: crosshair;
+}
+
+.conteudo .txt:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+
+footer .cpsbtn {
+    position: fixed;
+    top: 85%; left: 2.5%;
+    height: 120px; width: 120px;
+    background: transparent;
+    background-size: cover;
+    transition: .5s;
+    cursor: pointer;
+}
+
+footer .cpsbtn:hover {
+    scale: 1.2;
+    transition: .5s;
+}
+
